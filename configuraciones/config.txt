@@ -1,1 +1,6 @@
 acá definiremos nuestras configuraciones
+
+cómo configurar nuestro git con github
+
+git config --global user.name "tu usuario" 
+git config --global user.email "tu email" 
