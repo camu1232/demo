@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más Etiquetas</title>
+</head>
+<body>
+    <p align="center">El perro es <strong>blanco</strong></p>
+    <p><em>Lorem</em> <strong>ipsum</strong> <u>dolor</u> <b>sit</b> <mark>amet</mark>, <small>consectetur</small> <del>adipisicing</del> <ins>elit</ins>. <sub>Odio</sub> <sup>similique</sup> praesentium commodi possimus fuga tempora numquam mollitia, nihil laboriosam officiis deserunt, asperiores dolor molestiae architecto assumenda animi voluptatum? Minima consequuntur explicabo consectetur assumenda quo omnis fugiat quisquam, hic perspiciatis doloremque molestiae minus odit voluptate tenetur fugit veniam soluta impedit asperiores totam! In quas tempora quidem molestiae nulla suscipit tenetur? Ducimus nemo facere sint sed officia laborum molestiae quisquam explicabo eum laudantium vero illo odit ratione sequi, architecto eligendi voluptatum fugit cupiditate accusamus totam voluptate dolor veniam mollitia. Ut delectus nisi, qui, sunt excepturi rem veritatis animi eaque at laudantium voluptate?</p>
+    <h1>Multimedia</h1>
+    <video controls width="300" height="200" autoplay>
+         <source src="video1.mp4" type="video/mp4" media="(min-width:800px)">
+        </video>
+    <br>
+    <audio controls> 
+        <source src="audio1.ogg" type="audio/ogg">
+    </audio>
+
+    <p>Lorem.</p>
+    <p>lorem.</p>
+
+    <iframe width="400" height="200" src="https://www.youtube.com/embed/i12H4XK_5_I" title="&quot;Crochet Hacks Every Crafter Needs to Know! Quick &amp; Easy Gloves Gifts for Any Occasion!&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!-- Etiquetas anchor y listas -->
+     <br>
+     <a href="https://www.youtube.com/#!:">Ir a youtube</a> 
+    <!-- este es un elemento en linea porque no se crea en una linea aparte, en este caso se creó al lado del video agegado anteriormente. Por eso de agrega br -->
+      <a href="home">home</a>
+      <a href="about">about</a>
+    <!-- estos enlaces por ejemplo se crean todos en la misma línea -->
+
+    <!-- lista ordenada -->
+       <ol>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+       </ol>
+    <!-- lista desordenada -->
+        <ul>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+            <li>elemento 4</li>
+        </ul>
+    <!-- lista de definiciones -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de etiquetas</dd> 
+        <dt>CSS</dt>
+        <dd>Lenguaje de estilos</dd>
+    </dl>
+    <br>
+    <h2>tablas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Encabezado 1</th>
+                <!-- colspan significa que ese encabezado ocupará dos columnas -->
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- tr habla de una fila de la tabla -->
+                <td>juan</td>
+                <!-- td es el dato a ocupar -->
+                <td>25</td>
+                <td rowspan="2"> Córdoba</td> 
+                <!-- rowspan significa que Córdoba ocupará 2 lugares -->
+            </tr>
+            <tr>
+                <td>pablo</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>maria
+                </td>
+                <td>28</td>
+                <td>san luis</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">pie de la tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- formularios -->
+     <h2>formularios</h2>
+     <form>
+        <div> 
+            <label for="nombre">Tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="consulta">Tipo de consulta:</label>
+        <select id="consulta" name="consulta">
+        <option value="general">Consulta general</option>
+        <option value="pedido">Información de pedido</option>
+        <option value="soporte">Soporte técnico</option>
+        </select>
+        </div>
+        <br>
+        <div>
+        <label for="newsletter">Suscribirse al boletín:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" checked>
+        </div>
+        <br>
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50">
+            Escribe tu mensaje aquí...
+            </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar consulta">
+            <button>dale like</button>
+            <input type="color" name="" id="">
+        </div>
+     </form>
+</body>
+</html>

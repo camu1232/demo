@@ -1,0 +1,10 @@
+TOMAR MATE CEBADO
+
+1- colocar agua en la pava
+2- prender hornalla
+3- colocar la pava sobre la hornalla y esperar punto de hervor
+4- agregar el mate con yerba
+5- colocar agua en el termo
+6- llenar de agua el mate
+
+(acá estamos creando "algoritmos", un paso a paso de cómo se hacen las cosas)
