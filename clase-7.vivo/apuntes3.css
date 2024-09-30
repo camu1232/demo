@@ -1,0 +1,24 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.clase-1 {
+    border: 2px ridge blue;
+    /* margin sentido horario */
+    margin: 40px 15px 25px 8px;
+
+    padding: 10px 30px 10px 50px;
+    /* padding-top */
+    /* padding-bottom */
+    /* padding-left */
+    /* padding-right */
+}
+li {
+    list-style: georgian;
+}
