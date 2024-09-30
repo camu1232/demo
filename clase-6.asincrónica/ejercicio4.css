@@ -1,0 +1,24 @@
+.lista-colores 
+{
+background-color: lightgrey;
+border: solid;
+margin: 5px;
+padding: 0;
+}
+
+ul {
+color: lightcyan;
+}
+
+.btn-primary {
+    color: red;
+    font-size: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+.btn-secondary {
+    color: red;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+}
